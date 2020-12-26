@@ -8,7 +8,7 @@ export function NavBar(){
     
     <div className="navbar-flex">
       <div className="navbar-child-a mx-2 navbar-navlink">
-        Huskler
+        <img className="rounded-circle favicon" src={"./favicon.png"}  alt={"an image of Vishank"}/>
       </div>
 
       <div className="navbar-child-b mx-2">
@@ -23,7 +23,7 @@ export function NavBar(){
             Resume
           </li>
           <li className="navbar-list navbar-navlink">
-            email
+            Email
           </li>
         </ul> 
       </div>

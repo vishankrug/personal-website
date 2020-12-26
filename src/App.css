@@ -6,6 +6,11 @@
   text-align: center;
 }
 
+.hide{
+  font-size: 4rem;
+  visibility: hidden;
+}
+
 
 /* Navbar */
 .navbar-flex{
@@ -22,8 +27,8 @@
 
 .navbar-child-a{
   display: flex;
+  position: relative;
   align-items: center;
-
 }
 
 .navbar-child-b{
@@ -52,8 +57,15 @@
 }
 
 .topbar{
-  position: relative;
+  position: fixed;
   width: 100%;
-  margin-bottom: .8rem;
 }
 
+.favicon{
+  max-width: 40px;
+  height: auto;
+}
+
+.text {
+  padding-top: .5rem;
+}
