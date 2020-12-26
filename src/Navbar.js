@@ -14,10 +14,16 @@ export function NavBar(){
       <div className="navbar-child-b mx-2">
         <ul className="list-unstyled">
           <li className="navbar-list navbar-navlink">
-           github
+           GitHub
           </li>
           <li className="navbar-list navbar-navlink">
-            linkedin
+            LinkedIn
+          </li>
+          <li className="navbar-list navbar-navlink">
+            Resume
+          </li>
+          <li className="navbar-list navbar-navlink">
+            email
           </li>
         </ul> 
       </div>

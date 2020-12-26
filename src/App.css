@@ -6,9 +6,6 @@
   text-align: center;
 }
 
-.content{
-  padding-top: 1rem;
-}
 
 /* Navbar */
 .navbar-flex{
@@ -22,7 +19,6 @@
   display: inline;
   margin: 0px 2rem;
 }
-
 
 .navbar-child-a{
   display: flex;
@@ -54,3 +50,10 @@
   font-weight: bold;
   font-size: 1.2rem;
 }
+
+.topbar{
+  position: relative;
+  width: 100%;
+  margin-bottom: .8rem;
+}
+

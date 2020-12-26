@@ -6,7 +6,7 @@ import './App.css';
 function App() {
   return (
     <div>
-      <nav className = "innerchild topbar">
+      <nav className = "topbar">
         <NavBar/>
       </nav>
       <main>
