@@ -1,9 +1,29 @@
 import './App.css';
-import './Homepage.js';
+import { About, Projects, Experience, Hobbies } from './Homepage.js';
+import { NavBar, Footer } from './Navbar.js'
+import './App.css';
 
 function App() {
   return (
-    <p>hi</p>
+    <div>
+      <nav className = "innerchild topbar">
+        <NavBar/>
+      </nav>
+      <main>
+        <div className = "container">
+          <About/>
+          <Projects/>
+          <Experience/>
+          <Hobbies/>
+        </div>
+      </main>
+
+      <footer>
+        <Footer />
+      </footer>
+
+    </div>
+
   );
 }
 

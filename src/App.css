@@ -1,0 +1,56 @@
+*{
+  font-family: Arial, sans-serif;  
+}
+
+.homepage{
+  text-align: center;
+}
+
+.content{
+  padding-top: 1rem;
+}
+
+/* Navbar */
+.navbar-flex{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 1rem;
+  background-color: black;
+}
+
+.navbar-list{
+  display: inline;
+  margin: 0px 2rem;
+}
+
+
+.navbar-child-a{
+  display: flex;
+  align-items: center;
+
+}
+
+.navbar-child-b{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding-top: .8rem; 
+}
+
+.list-unstyled{
+  display: flex;
+  align-items: center;
+}
+
+.navbar-child-c{
+  display: flex;
+  align-items: center;
+
+}
+
+.navbar-navlink{
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
