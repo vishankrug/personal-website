@@ -1,5 +1,5 @@
 *{
-  font-family: Arial, sans-serif;  
+  font-family: "Open Sans", sans-serif;
 }
 
 .homepage{
@@ -68,4 +68,17 @@
 
 .text {
   padding-top: .5rem;
+}
+
+.header-flex{
+  display: flex;
+  justify-content: center;
+  margin-top: 12rem;
+}
+
+.header-landing-page{
+  font-size: 3.5rem;
+  font-weight: bolder;
+  color: white;
+  
 }

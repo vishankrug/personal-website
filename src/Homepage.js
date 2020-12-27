@@ -1,7 +1,6 @@
 export function About(){
     return(
         <div className="homepage firstitem">
-            <h1 className="hide">-</h1>
             <h1>VISHANK RUGHWANI</h1>
             <hr size="100" width="1000" color="black" />
             <div>
