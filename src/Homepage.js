@@ -1,8 +1,8 @@
 export function About(){
     return(
         <div className="homepage firstitem">
-            <h1>VISHANK RUGHWANI</h1>
-            <hr size="100" width="1000" color="black" />
+            <h1 className="title">About</h1>
+            <hr className="title" size="100" width="1000" color="blue" />
             <div>
                 <img className="rounded-circle people_image" src={"./vishank.jpeg"}  alt={"an image of Vishank"}/>
             </div>

@@ -52,7 +52,7 @@
 
 .navbar-navlink{
   color: white;
-  font-weight: bold;
+  font-weight: lighter;
   font-size: 1.2rem;
 }
 
@@ -77,8 +77,19 @@
 }
 
 .header-landing-page{
-  font-size: 3.5rem;
-  font-weight: bolder;
+  font-size: 2.5rem;
+  font-weight: lighter;
   color: white;
-  
+}
+
+.name{
+  font-weight: bolder;
+}
+
+.scroll{
+  font-size: 1.5rem;
+}
+
+.title{
+  color: #173b6c;;
 }

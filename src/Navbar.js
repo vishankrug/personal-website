@@ -39,7 +39,7 @@ export function Footer(){
   return(
     <div className="mt-5">
       <hr></hr>
-      <p className="ml-5">Copyright &copy; 2020 Vishank Rughwani. All rights reserved.  </p>
+      <p className="ml-5">Copyright &copy; 2020 Vishank Rughwani 👨🏽‍💻 </p>
     </div>
   )
 }
