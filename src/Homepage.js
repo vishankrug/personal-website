@@ -2,7 +2,7 @@ export function About(){
     return(
         <div className="homepage firstitem">
             <h1 className="title">About</h1>
-            <hr className="title" size="100" width="1000" color="blue" />
+            <hr className="title" size="100" width="100" color="blue" />
             <div>
                 <img className="rounded-circle people_image" src={"./vishank.jpeg"}  alt={"an image of Vishank"}/>
             </div>
@@ -15,7 +15,7 @@ export function Projects(){
     return(
         <div className="homepage">
             <h1>PROJECTS</h1>
-            <hr size="100" width="1000" color="black" />
+            <hr size="100" width="100" color="black" />
             <div>
                 <img className="rounded-circle people_image" src={"./vishank.jpeg"}  alt={"an image of Vishank"}/>
             </div>
@@ -29,7 +29,7 @@ export function Experience(){
     return(
         <div className="homepage">
             <h1>EXPERIENCE</h1>
-            <hr size="100" width="1000" color="black" />
+            <hr size="100" width="100" color="black" />
             <div>
                 <img className="rounded-circle people_image" src={"./vishank.jpeg"}  alt={"an image of Vishank"}/>
             </div>
@@ -43,7 +43,7 @@ export function Hobbies(){
     return(
         <div className="homepage">
             <h1>HOBBIES</h1>
-            <hr size="100" width="1000" color="black" />
+            <hr size="100" width="100" color="black" />
             <div>
                 <img className="rounded-circle people_image" src={"./vishank.jpeg"}  alt={"an image of Vishank"}/>
             </div>

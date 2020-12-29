@@ -1,29 +1,28 @@
 import React from 'react';
 import './App.css';
-
+import { FaGithub, FaLinkedin, FaFileAlt } from "react-icons/fa";
+import { FiMail } from "react-icons/fi";
 
 export function NavBar(){
-
   return(
-    
     <div className="navbar-flex">
       <div className="navbar-child-a mx-2 navbar-navlink">
-        <img className="rounded-circle favicon" src={"./favicon.png"}  alt={"an image of Vishank"}/>
+        <p className="navbarVR">VR</p>
       </div>
 
       <div className="navbar-child-b mx-2">
         <ul className="list-unstyled">
           <li className="navbar-list navbar-navlink">
-           GitHub
+            {<FaGithub className="navbarIcon"/>}
           </li>
           <li className="navbar-list navbar-navlink">
-            LinkedIn
+            {<FaLinkedin className="navbarIcon"/>}
           </li>
           <li className="navbar-list navbar-navlink">
-            Resume
+            {<FiMail className="navbarIcon"/>}
           </li>
           <li className="navbar-list navbar-navlink">
-            Email
+            {<FaFileAlt className="navbarIcon"/>}
           </li>
         </ul> 
       </div>
