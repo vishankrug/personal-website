@@ -7,7 +7,7 @@ export function NavBar(){
   const [navbar, setNavbar] = useState(false);
 
   const changeBackground = () =>{
-      if(window.scrollY >= 250){
+      if(window.scrollY >= 150){
           setNavbar(true);
       } else {
           setNavbar(false);
