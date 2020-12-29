@@ -25,16 +25,16 @@ export function NavBar(){
       <div className="navbar-child-b mx-2">
         <ul className="list-unstyled">
           <li className="navbar-list navbar-navlink">
-            {<FaGithub className="navbarIcon"/>}
+            <a href="./Vishank_Rughwani_Resume.pdf">{<FaFileAlt className="navbarIcon"/>}</a>
           </li>
           <li className="navbar-list navbar-navlink">
-            {<FaLinkedin className="navbarIcon"/>}
+            <a href="https://github.com/vishankrug">{<FaGithub className="navbarIcon" />}</a>
           </li>
           <li className="navbar-list navbar-navlink">
-            {<FiMail className="navbarIcon"/>}
+            <a href="https://www.linkedin.com/in/vishank-rughwani/">{<FaLinkedin className="navbarIcon"/>}</a>
           </li>
           <li className="navbar-list navbar-navlink">
-            {<FaFileAlt className="navbarIcon"/>}
+            <a href="mailto:vishankr@uw.edu">{<FiMail className="navbarIcon"/>}</a>
           </li>
         </ul> 
       </div>

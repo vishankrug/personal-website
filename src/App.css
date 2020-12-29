@@ -106,8 +106,14 @@
 .navbarIcon{
   width:25px;
   height: auto;
+  color:white;
+}
+
+.navbarIcon:hover{
+  color: #9FBCD1;
 }
 
 .navbarVR{
   font-size: 1.5rem;
+  background-color: transparent;
 }
