@@ -1,11 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import { FaGithub, FaLinkedin, FaFileAlt } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 
 export function NavBar(){
+  const [navbar, setNavbar] = useState(false);
+
+  const changeBackground = () =>{
+      if(window.scrollY >= 250){
+          setNavbar(true);
+      } else {
+          setNavbar(false);
+      }
+  }
+
+  window.addEventListener('scroll', changeBackground);
+
   return(
-    <div className="navbar-flex">
+    <div className={navbar ? 'navbar-flex active' : 'navbar-flex'}>
       <div className="navbar-child-a mx-2 navbar-navlink">
         <p className="navbarVR">VR</p>
       </div>
