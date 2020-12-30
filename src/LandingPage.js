@@ -16,7 +16,7 @@ export function LandingPage (){
                     <div style={props}>
                         <div className="header-flex">
                             <p className="header-landing-page">Hey! 👋🏽 
-                            <br/><br/>I'm <em className="name">Vishank Rughwani</em>. I am passionate <br/> about software development and executing <br/> ideas that create a lasting impact.
+                            <br/><br/>I'm <em className="name">Vishank Rughwani</em> and I'm passionate <br/> about software engineering and executing <br/> ideas that create a lasting impact.
                             <br/><br/><em className="scroll">Please scroll down to learn more...</em>
                             </p>
 
