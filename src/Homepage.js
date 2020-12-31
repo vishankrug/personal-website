@@ -15,7 +15,7 @@ export function About(){
                 <br/><br/>
                 Both the places I have lived have vastly influenced my work; in Dubai, I was the co-founder of a student accelerator called Business Minds that gave students an entrepreneurial platform to execute their ideas. The initiative received media attention and a large sponsorship from the Apparel Group that was directed towards the prize.
                 <br/><br/>
-                At university, I am involved in Alpha Kappa Psi, a business fraternity, as well as UW’s largest tech club - DubsTech - as an assistant director. I also accepted an offer to be a Teaching Assistant for Technical Foundations, a 200-level course,for Winter 2021. 
+                At university, I am involved in Alpha Kappa Psi, a business fraternity, as well as UW’s largest tech club - DubsTech - as an assistant director. I also accepted an offer to be a Teaching Assistant for Technical Foundations, a 200-level course, for Winter 2021. 
                 <br/><br/>
                 In my free time, I enjoy undertaking projects of my own. For example, during an internship in the summer of 2020, I worked on creating a scheduling application for clinics and also dabbled in making basic games like snake and bricks.
                 </p>
