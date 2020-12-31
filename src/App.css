@@ -76,7 +76,20 @@
 }
 
 .text {
-  padding-top: .5rem;
+  text-align: justify;
+  font-weight: lighter;
+}
+.about{
+  margin-left: 111px;
+}
+.projects{
+  margin-left: 82px;
+}
+.experience{
+  margin-left: 65px;
+}
+.hobbies {
+  margin-left: 95px;
 }
 
 .header-flex{
@@ -100,7 +113,9 @@
 }
 
 .title{
+  font-size: 1rem;
   color: #0F2157;
+  font-weight: bolder;
 }
 
 .navbarIcon{
@@ -116,4 +131,14 @@
 .navbarVR{
   font-size: 1.5rem;
   background-color: transparent;
+}
+
+.homepage{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.firstitem{
+  margin-top: 50px;
 }
