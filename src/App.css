@@ -142,3 +142,42 @@
 .firstitem{
   margin-top: 50px;
 }
+
+.projectContainer{
+  display: flex;
+  flex-direction: row;
+}
+.experienceContainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.experience-image{
+  margin-left: 70px;
+}
+
+.project-image{
+  margin-left: 70px;
+}
+
+.GDPvsHateCrime{
+  margin-bottom: 17px;
+}
+
+.hobbiesContainer{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.hobbies-image{
+  margin-left: 60px;
+}
+
+.hobbies-image{
+  margin-bottom: .5rem;
+}
+
+.hobbies{
+  margin-right: 40px;
+}
