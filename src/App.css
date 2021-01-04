@@ -171,7 +171,6 @@
 }
 
 .hobbiesContainer{
-  justify-content: right;
   display: flex;
   flex-direction: row;
 }
