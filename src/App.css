@@ -167,7 +167,7 @@
 .hobbiesContainer{
   display: flex;
   flex-direction: row;
-  margin: auto;
+  justify-content: center;
 }
 
 .hobbies-image{
@@ -180,4 +180,18 @@
 
 .hobbies{
   margin-right: 40px;
+}
+
+.project-name{
+  text-align: center;
+  font-weight: bolder;
+}
+
+.FYP{
+  margin-top: 20px;
+  margin-bottom:25px;
+}
+
+.epro{
+  margin-bottom:25px;
 }
