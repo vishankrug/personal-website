@@ -1,3 +1,6 @@
+import {Card, CardText, CardBody,CardLink, CardTitle, Col, Row} from 'reactstrap';
+
+
 export function About(){
     /*
     <div>
@@ -28,7 +31,7 @@ export function Projects(){
     return(
         <div className="homepage">
             <h1 className="title"> FEATURED PROJECTS</h1>
-            <div className="projectContainer">
+            <div className="mt-4 projectContainer">
                 <div>
                     <img width="150" className="project-image" src={"./huskler.png"}  alt={"Vishank"}/>
                     <p className = "text projects project-name"><em>huskler</em></p>
