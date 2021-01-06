@@ -4,6 +4,8 @@
 
 .homepage{
   text-align: center;
+  align-content: center;
+  justify-content: center;
 }
 
 .hide{
@@ -11,14 +13,12 @@
   visibility: hidden;
 }
 
-
 /* Navbar */
 .navbar-flex{
   display: flex;
   justify-content: space-between;
   padding: 10px 1rem;
   background-color: transparent;
-
   transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out;
   -moz-transition: all .4s ease-in-out;
@@ -68,6 +68,7 @@
 .topbar{
   position: fixed;
   width: 100%;
+  z-index: 9999;
 }
 
 .favicon{
@@ -80,16 +81,14 @@
   font-weight: lighter;
 }
 .about{
-  margin-left: 111px;
+  margin-left: 45px;
 }
+
 .projects{
-  margin-left: 82px;
-}
-.experience{
-  margin-left: 65px;
+  margin-left: 20px;
 }
 .hobbies {
-  margin-left: 95px;
+  padding-right: 130px;
 }
 
 .header-flex{
@@ -143,23 +142,6 @@
   margin-top: 50px;
 }
 
-.projectContainer{
-  display: flex;
-  flex-direction: row;
-}
-.experienceContainer{
-  display: flex;
-  flex-direction: row;
-}
-
-.experience-image{
-  margin-left: 70px;
-}
-
-.project-image{
-  margin-left: 70px;
-}
-
 .GDPvsHateCrime{
   margin-top: 5px;
   margin-bottom: 17px;
@@ -170,21 +152,10 @@
   margin-bottom: 13px;
 }
 
-.hobbiesContainer{
-  display: flex;
-  flex-direction: row;
-}
-
-.hobbies-image{
-  margin-left: 60px;
-}
 
 .hobbies-image{
   margin-bottom: .5rem;
-}
-
-.hobbies{
-  margin-right: 40px;
+  border: 3px solid black;
 }
 
 .project-name{
@@ -203,5 +174,21 @@
 
 .businessMinds{
   margin-top: 15px;
-  margin-bottom:30px;
+  margin-bottom:20px;
+}
+
+.padding{
+  padding-left: 2.3rem;
+  padding-right: 2.3rem;
+}
+
+@media (max-width: 1100px){
+  .padding{
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+}
+
+@media (max-width: 900px){
+
 }
