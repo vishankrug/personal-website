@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import { FaGithub, FaLinkedin, FaFileAlt } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaFileAlt, FaHamburger } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 
 export function NavBar(){
