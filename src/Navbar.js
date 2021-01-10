@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { RightNav } from './RightNav';
-import { FaGithub, FaLinkedin, FaFileAlt } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaFileAlt, FaRegAddressCard } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 
 export function NavBar(){
@@ -27,7 +27,7 @@ export function NavBar(){
         <RightNav state={dropdownOpen} setDropdownOpen={setDropdownOpen}/>
         <ul className="list-unstyled">
         <li className="navbar-list navbar-navlink">
-          <a href="./Vishank_Rughwani_Resume.pdf">{<FaFileAlt className="navbarIcon"/>}</a>
+          <a href="./Vishank_Rughwani_Resume.pdf">{<FaRegAddressCard className="navbarIcon"/>}</a>
         </li>
         <li className="navbar-list navbar-navlink">
           <a href="https://github.com/vishankrug">{<FaGithub className="navbarIcon" />}</a>
