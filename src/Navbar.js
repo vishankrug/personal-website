@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import './App.css';
-import { FaGithub, FaLinkedin, FaFileAlt, FaHamburger } from "react-icons/fa";
+import { RightNav } from './RightNav';
+import { FaGithub, FaLinkedin, FaFileAlt } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 
 export function NavBar(){
@@ -14,6 +14,8 @@ export function NavBar(){
       }
   }
 
+  const[dropdownOpen, setDropdownOpen] = useState(false);
+
   window.addEventListener('scroll', changeBackground);
 
   return(
@@ -21,22 +23,22 @@ export function NavBar(){
       <div className="navbar-child-a mx-2 navbar-navlink">
         <p className="navbarVR">VR</p>
       </div>
-
       <div className="navbar-child-b mx-2">
+        <RightNav state={dropdownOpen} setDropdownOpen={setDropdownOpen}/>
         <ul className="list-unstyled">
-          <li className="navbar-list navbar-navlink">
-            <a href="./Vishank_Rughwani_Resume.pdf">{<FaFileAlt className="navbarIcon"/>}</a>
-          </li>
-          <li className="navbar-list navbar-navlink">
-            <a href="https://github.com/vishankrug">{<FaGithub className="navbarIcon" />}</a>
-          </li>
-          <li className="navbar-list navbar-navlink">
-            <a href="https://www.linkedin.com/in/vishank-rughwani/">{<FaLinkedin className="navbarIcon"/>}</a>
-          </li>
-          <li className="navbar-list navbar-navlink">
-            <a href="mailto:vishankr@uw.edu">{<FiMail className="navbarIcon"/>}</a>
-          </li>
-        </ul> 
+        <li className="navbar-list navbar-navlink">
+          <a href="./Vishank_Rughwani_Resume.pdf">{<FaFileAlt className="navbarIcon"/>}</a>
+        </li>
+        <li className="navbar-list navbar-navlink">
+          <a href="https://github.com/vishankrug">{<FaGithub className="navbarIcon" />}</a>
+        </li>
+        <li className="navbar-list navbar-navlink">
+          <a href="https://www.linkedin.com/in/vishank-rughwani/">{<FaLinkedin className="navbarIcon"/>}</a>
+        </li>
+        <li className="navbar-list navbar-navlink">
+          <a href="mailto:vishankr@uw.edu">{<FiMail className="navbarIcon"/>}</a>
+        </li>
+      </ul> 
       </div>
       <div className="navbar-child-c mx-2">
       

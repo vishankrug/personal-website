@@ -1,4 +1,4 @@
-import {Card, CardText, CardBody,CardLink, CardTitle, Col, Row} from 'reactstrap';
+import {Card, CardText, CardBody, CardTitle, Col, Row} from 'reactstrap';
 
 
 export function About(){
@@ -10,7 +10,7 @@ export function About(){
     return(
         <div className="homepage firstitem">
             <h1 className="title about">ABOUT</h1>
-            <div>
+            <div className="mt-4">
 
                 <p className = "text about">I am currently a junior majoring in Computer Science/Informatics with a concentration in Software Engineering and minoring in Entrepreneurship at the University of Washington, Seattle.
                 <br/><br/>
