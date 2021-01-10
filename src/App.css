@@ -168,6 +168,7 @@
   color: white;
 }
 
+
 .name{
   font-weight: bolder;
 }
@@ -257,5 +258,12 @@
 @media(max-width: 410px){
   .padding{
     margin-right: 50px;
+  }
+}
+
+
+@media(max-width: 500px){
+  .header-landing-page{
+    font-size: 2rem;
   }
 }
