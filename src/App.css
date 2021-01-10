@@ -57,6 +57,14 @@
   color: #9FBCD1;
 }
 
+.hamburger{
+  display: none;
+}
+
+.cross{
+  display: none;
+}
+
 @media(max-width: 768px){
   .list-unstyled{
     flex-flow: column nowrap;
