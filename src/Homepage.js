@@ -136,7 +136,7 @@ export function Hobbies(){
                 <Card className="border-0 padding">
                     <CardBody>
                         <img width="150" height="150" className="hobbies-image rounded-circle" src={"./horse.jpg"}  alt={"Horse Riding"}/>
-                        <CardTitle className = "text  project-name"><em>Horse Riding</em></CardTitle>
+                        <CardTitle className = "text project-name"><em>Horse Riding</em></CardTitle>
                     </CardBody>
                 </Card>
             </Col>
