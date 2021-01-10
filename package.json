@@ -1,6 +1,6 @@
 {
   "homepage": "http://vishankrug.github.io/personalWebsite",
-  "name": "my-website",
+  "name": "personalWebsite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
