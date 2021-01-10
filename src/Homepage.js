@@ -94,7 +94,7 @@ export function Experience(){
                         <img width="120"className="epro" src={"./epro.jpg"}  alt={"Epro Middle East"}/>
                         <CardTitle className = "text project-name"><em><a href="https://expertscomputer.com/">Epro Middle East</a></em></CardTitle>
                             <CardText className="text">
-                                With my study abroad program being canceled due to Covid-19, I decided to accept an offer to be a sales executive for B2B trading of electronic goods and understood the ins and outs of local and international business. However, due to Covid-19, even though the demand was high, there was a shortage of supply. I suggested diversification into medical supplies. Implementing my suggestion increased the company’s revenue by $700,000 of which I was responsible for $75,000 by closing 4 deals.
+                                With my study abroad program being canceled due to Covid-19, I decided to accept an offer to be a sales executive for B2B trading of electronic goods and understood the ins and outs of local and international business. However, due to the pandemic, even though the demand was high, there was a shortage of supply. I suggested diversification into medical supplies. Implementing my suggestion increased the company’s revenue by $700,000 of which I was responsible for $75,000 by closing 4 deals.
                         </CardText>
                     </CardBody>
                 </Card>
@@ -105,7 +105,7 @@ export function Experience(){
                             <img width="125"className="dubstech" src={"./dubstech.png"}  alt={"DubsTech"}/>
                             <CardTitle className = "text project-name"><em><a href="https://dubstech.org/">DubsTech</a></em></CardTitle>
                             <CardText className="text">
-                                I attended the Protothon (UI/UX Hackathon) hosted by Dubstech and saw a lot of potential in the event, however, parts of it were poorly executed. I joined the team as an assistant director the subsequent year, and was responsible for hosting and facilitating engagement events throughout the first online Protothon with over 300 participants and 81 submissions. The event was so successful that we are now an official iSchool club and were featured on the iSchool website. <br/><a href="https://ischool.uw.edu/news/2020/06/dubstech-student-group-engages-ischoolers-first-online-hackathon">View</a>
+                                I attended the Protothon (UI/UX Hackathon) hosted by Dubstech and saw a lot of potential in the event, however, parts of it were poorly executed. I joined the team as an assistant director the subsequent year, and was responsible for hosting and facilitating engagement events throughout the first online Protothon with over 300 participants and 81 submissions. The event was so successful that we are now an official iSchool club and were featured on the iSchool website. I am now one of the directors of the event. <br/><a href="https://ischool.uw.edu/news/2020/06/dubstech-student-group-engages-ischoolers-first-online-hackathon">View</a>
                         </CardText>
                     </CardBody>
                 </Card>
