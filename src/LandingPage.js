@@ -11,7 +11,7 @@ export function LandingPage (){
             height: "100vh",
             border: "1px solid black",
             }}>
-            <Spring from={{opacity:0}} to={{opacity:1}} config={{delay:300}}>
+            <Spring from={{opacity:0}} to={{opacity:1}} config={{delay:400}}>
                 {props => (
                     <div style={props}>
                         <div className="header-flex">
