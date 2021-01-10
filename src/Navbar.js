@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { RightNav } from './RightNav';
-import { FaGithub, FaLinkedin, FaFileAlt, FaRegAddressCard } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaRegAddressCard } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 
 export function NavBar(){
