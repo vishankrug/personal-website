@@ -94,7 +94,7 @@ export function Experience(){
                         <img width="120"className="epro" src={"./epro.jpg"}  alt={"Epro Middle East"}/>
                         <CardTitle className = "text project-name"><em><a href="https://expertscomputer.com/">Epro Middle East</a></em></CardTitle>
                             <CardText className="text">
-                                With my study abroad program being canceled due to Covid-19, I decided to accept an offer to be a sales executive for B2B trading of electronic goods and understood the ins and outs of local and international business. However, due to the pandemic, even though the demand was high, there was a shortage of supply. I suggested diversification into medical supplies. Implementing my suggestion increased the company’s revenue by $700,000 of which I was responsible for $75,000 by closing 4 deals.
+                                With my study abroad program being canceled due to Covid-19, I decided to accept an offer to be a sales executive intern for B2B trading of electronic goods and understood the ins and outs of local and international business. However, due to the pandemic, even though the demand was high, there was a shortage of supply. I suggested diversification into medical supplies. Implementing my suggestion increased the company’s revenue by $700,000 of which I was responsible for $75,000 by closing 4 deals.
                         </CardText>
                     </CardBody>
                 </Card>
