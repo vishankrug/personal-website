@@ -20,7 +20,7 @@ export function About(){
                 <br/><br/>
                 At university, I am involved in Alpha Kappa Psi, a business fraternity, as well as UW’s largest tech club - DubsTech - as an assistant director. I also accepted an offer to be a Teaching Assistant for Technical Foundations, a 200-level course, for Winter 2021. 
                 <br/><br/>
-                In my free time, I enjoy undertaking projects of my own. For example, during the summer of 2020, I worked on creating a scheduling application for clinics and also dabbled in making basic<a href="https://github.com/vishankrug/gamesOnProcessing"> games </a> like snake and pong.
+                In my free time, I enjoy undertaking projects of my own. For example, during the summer of 2020, I worked on creating a scheduling application for clinics and also dabbled in making basic<a href="https://github.com/vishankrug/gamesOnProcessing"> games </a> like snake and pong. Take a look at my <a href="./Vishank_Rughwani_Resume.pdf">resume</a>!
                 </p>
             </div>
         </div>
