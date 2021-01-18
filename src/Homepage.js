@@ -105,7 +105,7 @@ export function Experience(){
                             <img width="125"className="dubstech" src={"./dubstech.png"}  alt={"DubsTech"}/>
                             <CardTitle className = "text project-name"><em><a href="https://dubstech.org/">DubsTech</a></em></CardTitle>
                             <CardText className="text">
-                                I attended the Protothon (UI/UX Hackathon) hosted by Dubstech and saw a lot of potential in the event, however, parts of it were poorly executed. I joined the team as an assistant director the subsequent year, and was responsible for hosting and facilitating engagement events throughout the first online Protothon with over 300 participants and 81 submissions. The event was so successful that we are now an official iSchool club and were featured on the iSchool website. I am now one of the directors of the event. <br/><a href="https://ischool.uw.edu/news/2020/06/dubstech-student-group-engages-ischoolers-first-online-hackathon">View</a>
+                                I attended the Protothon (UI/UX Hackathon) hosted by Dubstech and saw a lot of potential in the event, however, parts of it were poorly executed. I joined the team as an assistant director for the next iteration, and was responsible for hosting and facilitating engagement events throughout the first online Protothon with over 300 participants and 81 submissions. The event was so successful that we are now an official iSchool club and were featured on the iSchool website. I am now one of the directors of the event. <br/><a href="https://ischool.uw.edu/news/2020/06/dubstech-student-group-engages-ischoolers-first-online-hackathon">View</a>
                         </CardText>
                     </CardBody>
                 </Card>
@@ -116,7 +116,7 @@ export function Experience(){
                             <img width="125"className="project-image businessMinds" src={"businessminds.png"}  alt={"Business Minds"}/>
                             <CardTitle className = "text project-name"><em><a href="https://www.instagram.com/businessminds_dia/">Business Minds</a></em></CardTitle>
                             <CardText className="text">
-                                I am the founder of Business Minds, an accelerator for student startups in Dubai. During the inaugural event, of which I was president, we saw over 50 startups pitch their ideas to investors. We were sponsored by the Apparel Group, receiving over $5000 to use as prize money for the winners. The subsequent editions of the event have grown exponentially with twice the amount of sponsorship money and participants. We were also featured on Gulf News, the national news outlet of the UAE.
+                                I am the founder of Business Minds, an accelerator for student startups in Dubai. During the inaugural event, of which I was president, we saw over 50 startups pitch their ideas to investors. We were sponsored by the Apparel Group, receiving over $5,000 to use as prize money for the winners. The subsequent editions of the event have grown exponentially with twice the amount of sponsorship money and participants. We were also featured on Gulf News, the national news outlet of the UAE.
                             </CardText>
                     </CardBody>
                 </Card>
