@@ -18,7 +18,7 @@ export function About(){
                 <br/><br/>
                 Both the places I have lived in have vastly influenced my work; in Dubai, I was the co-founder of a student accelerator called Business Minds that gave students an entrepreneurial platform to execute their ideas. The initiative received media attention and a large sponsorship from the Apparel Group that was directed towards the prize.
                 <br/><br/>
-                At university, I am involved in Alpha Kappa Psi, a business fraternity, as well as UW’s largest tech club - DubsTech - as an assistant director. I also accepted an offer to be a Teaching Assistant for Technical Foundations, a 200-level course, for Winter 2021. 
+                At university, I am involved in Alpha Kappa Psi, a business fraternity, as well as UW’s largest tech club - DubsTech - as the director of the Protothon. I also accepted an offer to be a Teaching Assistant for Client-Side Development, a 300-level course, for Spring 2021. 
                 <br/><br/>
                 In my free time, I enjoy undertaking projects of my own. For example, during the summer of 2020, I worked on creating a scheduling application for clinics and also dabbled in making basic<a href="https://github.com/vishankrug/gamesOnProcessing"> games </a> like snake and pong. Take a look at my <a href="./Vishank_Rughwani_Resume.pdf">resume</a>!
                 </p>
@@ -51,7 +51,7 @@ export function Projects(){
                         <img width="149"className="" src={"./scheduler.png"}  alt={"Vishank"}/>
                         <CardTitle className = "text project-name"><em><a href="https://github.com/vishankrug/doctorPatientsApplication">Appointment Scheduler</a></em></CardTitle>
                             <CardText className="text">
-                            When I visited my dentist over the summer, I realized that his office was entirely paper-based. With time to spare during the lockdown, I decided to try creating an application for his office. I interviewed the receptionist to understand the pain points to help identify a success criteria. I then developed the application on Netbeans using Java while utilizing object-oriented programming with complexities of inheritance and encapsulation of classes. This was my first personal project and I will always cherish how much it helped me understand my own capabilities.
+                            When I visited my dentist over the summer of 2020, I realized that his office was entirely paper-based. With time to spare during the lockdown, I decided to try creating an application for his office. I interviewed the receptionist to understand the pain points to help identify a success criteria. I then developed the application on Netbeans using Java while utilizing object-oriented programming with complexities of inheritance and encapsulation of classes. This was my first personal project and I will always cherish how much it helped me understand my own capabilities.
                         </CardText>
                     </CardBody>
                 </Card>
@@ -75,15 +75,15 @@ export function Projects(){
 export function Experience(){
     return(
         <div className="homepage">
-        <h1 className="title experience">EXPERIENCE</h1>
+        <h1 className="title experience">FEATURED EXPERIENCE</h1>
         <Row>
             <Col md="6" className="mt-4">
                 <Card className="border-0">
                     <CardBody>
-                        <img width="120" className="FYP" src={"./FYP.png"}  alt={"FYP"}/>
-                        <CardTitle className = "text project-name"><em><a href="https://fyp.washington.edu/">FIG Leader</a></em></CardTitle>
+                        <img width="200" className="ischool" src={"./ischoollogo.png"}  alt={"ischool"}/>
+                        <CardTitle className = "text project-name"><em><a href="https://ischool.uw.edu/">Teaching Assistant</a></em></CardTitle>
                         <CardText className="text">
-                            As an international student, I frequently found my transition to university challenging. Although I overcame this with time and effort, I wanted to ensure that incoming students would not have to go through the same difficulties that I did. I developed a 10-week curriculum consisting of modules, lesson plans, and active learning techniques to allow students to transition to university smoothly. With the imposition of remote learning, I had to quickly modify my plan to accommodate, and in the fall of 2020, I led my first class as a teacher and mentor.
+                            After serving as a FIG Leader, I accepted a position to be a teaching assistant for Technical Foundations. I taught 25 students the fundamentals of wrangling and using data to extract information with the use of graphs (plotly) in R. I also taught them how to publish their graphs and insights by making a Shiny application. After this position I accepted a position to be a teaching assistant for Client-Side Development. In this position, I am teaching 35 students HTML, CSS, JavaScript, React.js, and Firebase.
                         </CardText>
                     </CardBody>
                 </Card>
@@ -105,7 +105,7 @@ export function Experience(){
                             <img width="125"className="dubstech" src={"./dubstech.png"}  alt={"DubsTech"}/>
                             <CardTitle className = "text project-name"><em><a href="https://dubstech.org/">DubsTech</a></em></CardTitle>
                             <CardText className="text">
-                                I attended the Protothon (UI/UX Hackathon) hosted by Dubstech and saw a lot of potential in the event, however, parts of it were poorly executed. I joined the team as an assistant director for the next iteration, and was responsible for hosting and facilitating engagement events throughout the first online Protothon with over 300 participants and 81 submissions. The event was so successful that we are now an official iSchool club and were featured on the iSchool website. I am now one of the directors of the event. <br/><a href="https://ischool.uw.edu/news/2020/06/dubstech-student-group-engages-ischoolers-first-online-hackathon">View</a>
+                                I attended the Protothon (UX Hackathon) by Dubstech and saw potential in the event, however, parts of it were poorly executed. I joined the team as an assistant director, and was responsible for hosting and facilitating engagement events throughout the first online Protothon with over 300 participants and 81 submissions.  I am now one of the directors of the event and my team has secured over $11,000 from Adobe and agora.io for prizes. We also saw over 1000 sign ups and almost 200 project submissions. <br/><a href="https://ischool.uw.edu/news/2020/06/dubstech-student-group-engages-ischoolers-first-online-hackathon">View</a>
                         </CardText>
                     </CardBody>
                 </Card>
@@ -113,11 +113,11 @@ export function Experience(){
             <Col md="6" className="mt-4">
                 <Card className="border-0">
                     <CardBody>
-                            <img width="125"className="project-image businessMinds" src={"businessminds.png"}  alt={"Business Minds"}/>
-                            <CardTitle className = "text project-name"><em><a href="https://www.instagram.com/businessminds_dia/">Business Minds</a></em></CardTitle>
-                            <CardText className="text">
-                                I am the founder of Business Minds, an accelerator for student startups in Dubai. During the inaugural event, of which I was president, we saw over 50 startups pitch their ideas to investors. We were sponsored by the Apparel Group, receiving over $5,000 to use as prize money for the winners. The subsequent editions of the event have grown exponentially with twice the amount of sponsorship money and participants. We were also featured on Gulf News, the national news outlet of the UAE.
-                            </CardText>
+                        <img width="120" className="FYP" src={"./FYP.png"}  alt={"FYP"}/>
+                        <CardTitle className = "text project-name"><em><a href="https://fyp.washington.edu/">FIG Leader</a></em></CardTitle>
+                        <CardText className="text">
+                            As an international student, I frequently found my transition to university challenging. Although I overcame this with time and effort, I wanted to ensure that incoming students would not have to go through the same difficulties that I did. I developed a 10-week curriculum consisting of modules, lesson plans, and active learning techniques to allow students to transition to university smoothly. With the imposition of remote learning, I had to quickly modify my plan to accommodate, and in the fall of 2020, I led my first class as a teacher and mentor.
+                        </CardText>
                     </CardBody>
                 </Card>
             </Col>
