@@ -21,7 +21,7 @@ export function LandingPage() {
                 <br />
                 <br />
                 I'm <em className="name">Vishank Rughwani</em> and I'm
-                passionate <br /> about software engineering, product
+                passionate <br /> about software engineering, project
                 management, <br />
                 and executing ideas that create a lasting impact.
                 <br />
