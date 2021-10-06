@@ -11,38 +11,13 @@ export function About() {
       <h1 className="title about">ABOUT</h1>
       <div className="mt-4">
         <p className="text about">
-          I am currently a junior majoring in Computer Science/Informatics with
-          a concentration in Software Engineering and minoring in
-          Entrepreneurship at the University of Washington, Seattle.
+          Hello! My name is Vishank Rughwani and I am a student at the University of Washington majoring in Informatics with dual concentrations in Software Development and Data Science. I have also recently picked up a minor in entrepreneurship. 
           <br />
           <br />
-          Although I am Indian and study in Seattle, I was born and raised in
-          Dubai. One of my biggest takeaways from living in such a fast-paced
-          city is the importance of constantly learning.
+          My long-term goal is to become an entrepreneur in tech and in order to work towards that goal, it is important for me to understand the different teams within the technology sector. My first year in university, I focused mainly on user experience and user interface. Then, I continued on to exploring the area of data science and software engineering. Now, I am exploring the business aspect of tech. I solidified my understanding of software engineering and data science over the summer in which I worked for Blackstraw as a data science intern and Satchl as a front-end development intern. However, in both these internships, I saw myself taking up the role of the team lead where I understood the goals of my manager and relayed them to the team broken up in smaller bits with my own deadlines. Here, I realized that product management is the right role for me and remembered how much I loved working in a similar role for DubsTech, for whom I hosted an online UI/UX hackathon and acted as the director of the “Protothon”
           <br />
           <br />
-          Both the places I have lived in have vastly influenced my work; in
-          Dubai, I was the co-founder of a student accelerator called Business
-          Minds that gave students an entrepreneurial platform to execute their
-          ideas. The initiative received media attention and a large sponsorship
-          from the Apparel Group that was directed towards the prize.
-          <br />
-          <br />
-          At university, I am involved in Alpha Kappa Psi, and will be the head
-          of Rho Tech next quarter, as well as UW’s largest tech club - DubsTech
-          - as the director of the Protothon. I have also been a Teaching
-          Assistant for two quarters for Client-Side Development, a 300 level
-          course, and just accepted an offer to continue for the next quarter!
-          <br />
-          <br />
-          In my free time, I enjoy undertaking projects of my own. For example,
-          during the summer of 2020, I worked on creating a scheduling
-          application for clinics and also dabbled in making basic
-          <a href="https://github.com/vishankrug/gamesOnProcessing">
-            {" "}
-            games{" "}
-          </a>{" "}
-          like snake and pong. Take a look at my{" "}
+          Take a look at my{" "}
           <a href="./Vishank_Rughwani_Resume.pdf">resume</a>!
         </p>
       </div>
